@@ -1,0 +1,89 @@
+body{
+	background-color: #505050;
+}
+
+.wrap{
+	padding: 0 10px;
+}
+
+.container{
+	width: 70%;
+	margin: 10px auto;
+	position: relative;
+}
+
+.b1,.b2,.b3{
+	margin: 5px 1.5%;
+}
+
+.block{
+	background-color: #909090;
+	box-shadow: 5px 10px 10px;
+	border-radius: 10px; 
+}
+
+.b1{
+	display: inline-block;
+    vertical-align: top;
+    width: 10%;
+}
+
+.b1>img, .b3>img{
+	height: 40px;
+	padding: 5px auto;
+	display: block;
+}
+
+.b2{
+	display: inline-block;
+    vertical-align: top;
+    width: 70%;
+    padding: 10px;
+    margin: 5px auto;
+    align-items: center;
+}
+.b3{
+	display: inline-block;
+    vertical-align: top;
+    width: 10%;
+    height: 300px;
+}
+.loupe{
+	z-index: 100;
+	margin-top: 0.2%;
+	margin-right: 3%;
+	height: 100px;
+	position: absolute;
+	top: 5px;
+	right: 0px;
+}
+.day{
+	padding: 10px;
+	height: 60px;
+}
+
+.header{
+	margin: 5px;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.cluster{
+	width: 99%;
+}
+
+.reload{
+	margin: 5px;
+	height: 15px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+}
+
+.close{
+	margin: 5px;
+	height: 15px;
+	position: absolute;
+	bottom: 5px;
+	right: 5px;
+}
