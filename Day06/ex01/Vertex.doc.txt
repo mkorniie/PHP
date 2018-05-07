@@ -1,0 +1,12 @@
+
+<- Vertex ----------------------------------------------------------------------
+Awesome programmu! RECOMMENDED
+U can make awesome DOTS with it!
+It takes: 
+•  ’x’: x axis coordinate, mandatory.
+•  ’y’: y axis coordinate, mandatory.
+•  ’z’: z axis coordinate, mandatory.
+•  ’w’: optional, by default is worth 1.0.
+•  ’color’: optional, by default is worth a new instance of the color white.
+If the static attribute verbose is true, then the Class constructor and destructor will produce an output. 
+---------------------------------------------------------------------- Vertex ->

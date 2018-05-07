@@ -1,0 +1,13 @@
+
+<- Badass ----------------------------------------------------------------------
+
+Represents ship Baddass.
+Contains info:
+				ship name (by default "Badass");
+				ship position(x and y);
+				ship width and height(by default 40 and 40);
+Has a verbose mode (activated by boolean $verbose).
+Constructor takes x and y, separated by comma. Example:
+	$ship = new Badass(pos_x, pos_y);
+
+---------------------------------------------------------------------- Badass ->

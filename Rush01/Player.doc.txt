@@ -1,0 +1,13 @@
+
+<- Player ----------------------------------------------------------------------
+
+Represents game players (from 1 to 4).
+Contains info:
+				player name (login);
+				player number (from 1 to 4);
+				player's Ship (Ship object);
+Has a verbose mode (activated by boolean $verbose).
+Constructor takes name and number, separated by comma. Example:
+	$player = new Player(myLogin, myNumber);
+
+---------------------------------------------------------------------- Player ->

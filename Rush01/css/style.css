@@ -1,0 +1,149 @@
+/**********************  Reset CSS Start  **********************/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/**********************  Reset CSS End  **********************/
+
+body {
+	background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/06/Outer-Space-Backgrounds-Free-Download.jpg");
+	color: white;
+}
+
+/*add image label - health, anme etc.*/
+/*#ship1:hover {
+	
+}
+
+#ship2:hover {
+	
+}
+
+#ship3:hover {
+	
+}
+
+#ship4:hover {
+	
+}*/
+
+#ship1{
+	z-index: 100;
+	box-shadow: 0px 0px 27px 9px rgba(255,0,0,1);
+	} 
+#ship2{
+	z-index: 200;
+	box-shadow: 0px 0px 27px 9px rgba(0,0,255,1);
+}
+#ship3{
+	z-index: 300;
+	box-shadow: 0px 0px 27px 9px rgba(0, 255, 0, 1);
+}
+#ship4{
+	z-index: 400;
+	box-shadow: 0px 0px 27px 9px rgba(180, 20, 70, 1);
+}
+
+#ship1, #ship2, #ship3, #ship4{
+	height: 40px;
+	position: relative;
+	/*box-shadow: 0px 0px 27px 9px rgba(0,0,255,1);*/
+}
+
+.wrapper{
+	/*width : 95%;*/
+	height: 100vh;
+	margin: 10px 30px;
+	background-color: rgba(0,0,0,0.5);
+	min-width: 900px;
+}
+
+.field, .players{
+/*	vertical-align:top;
+    display:inline-block;*/
+	border: 1px solid white;
+}
+
+.field{
+	width: 1500px;
+	height: 1000px;
+	margin: 10px auto;
+	background-color: rgba(250,250,250, 0.6);
+}
+
+.players{
+	position: absolute;
+	min-height: 200px;
+	max-width: 175px;
+	width: 15%;
+	margin: 20px;
+	padding: 9px;
+	height: 300px;
+}
+
+#pl1{
+	background-color: rgba(255, 0, 0, 0.5);
+	top: 40px;
+	left: 40px;
+}
+
+#pl2{
+	background-color: rgba(0, 0, 255, 0.5);
+	top: 40px;
+	right: 40px;
+}
+
+#pl3{
+	background-color: rgba(0, 255, 0, 0.5);
+	left: 40px;
+	bottom: 40px;
+}
+
+#pl4{
+	background-color: rgba(180, 20, 70, 0.5);
+	right: 40px;
+	bottom: 40px;
+}
+
+h3 {
+	margin: 15px;
+}

@@ -1,0 +1,11 @@
+
+<- Game ----------------------------------------------------------------------
+
+Represent game.
+Contains game info:
+		array of current players;
+		array of obstacles.
+Has a verbose mode (activated by boolean $verbose).
+Constructor takes an array $kwargs, that should contain array of current players and array of obstacles wuth respective keys ('players' and 'obstacles');
+
+---------------------------------------------------------------------- Game ->

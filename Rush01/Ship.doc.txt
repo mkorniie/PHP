@@ -1,0 +1,12 @@
+
+<- Ship ----------------------------------------------------------------------
+
+Represents player's ship.
+CLASS IS ABSTRACT.
+Contains info:
+				ship name;
+				ship position(x and y);
+				ship width and height;
+Has a verbose mode (activated by boolean $verbose).
+
+---------------------------------------------------------------------- Ship ->

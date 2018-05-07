@@ -1,0 +1,12 @@
+
+<- Obstacle ----------------------------------------------------------------------
+
+Represents game obstacles on the map.
+Contains info:
+		obstacle position (x and y);
+		obstacles dimensions (width and height).
+Has a verbose mode (activated by boolean $verbose).
+Constructor takes an all the obstacle parameters separatety. Example:
+	$obstacle = new Obstacle(10, 20, 0, 0);
+
+---------------------------------------------------------------------- Obstacle ->

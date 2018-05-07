@@ -1,4 +1,2 @@
-USE db_mkorniie
-
-DELETE FROM ft_table
+DELETE FROM db_mkorniie.ft_table
 WHERE id <= 5;
